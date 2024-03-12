@@ -54,6 +54,8 @@ h3 {
 h2,
 h3 {
   color: var(--nutmeg);
+  margin-bottom: 0;
+  
 }
 
 .card {
