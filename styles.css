@@ -1,0 +1,124 @@
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 375px;
+  display: inline-flex;
+  flex-direction: column;
+  color: var(--dark-charcoal);
+}
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.content-wrapper {
+  padding: 0 16px;
+  margin: 0 16px;
+}
+
+h1 {
+  color: var(--dark-charcoal);
+  font-family: 'Young Serif', serif;
+}
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Young Serif', serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h2,
+h3 {
+  color: var(--nutmeg);
+}
+
+.card {
+  background-color: var(--rose-white);
+  border-radius: 20px;
+  padding: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 12px;
+}
+
+.card h3 {
+  padding: 0 1rem;
+}
+
+li {
+  padding: 8px;
+}
+
+.card li {
+  font-size: 1.25rem;
+}
+
+ol {
+  padding: 0 16px;
+}
+
+p {
+  font-size: 1rem;
+  /* padding: 0 1rem; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+span {
+  font-weight: bold;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+tr {
+  border-bottom: 1px solid var(--light-grey);
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+td {
+  padding: 8px 1rem 8px 1rem;
+}
+
+td.td-values {
+  font-weight: bold;
+  color: var(--nutmeg);
+}
