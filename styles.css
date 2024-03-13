@@ -54,18 +54,6 @@ img {
   margin: 0 16px;
 }
 
-@media (min-width: 768px) {
-  .image-wrapper,.content-wrapper {
-    max-width: 90%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .image-wrapper,.content-wrapper {
-    max-width: 1150px;
-  }
-}
-
 h1 {
   color: var(--dark-charcoal);
   font-family: 'Young Serif', serif;
@@ -150,4 +138,22 @@ td {
 td.td-values {
   font-weight: bold;
   color: var(--nutmeg);
+}
+
+@media (min-width: 768px) {
+  .image-wrapper,
+  .content-wrapper
+  {
+    max-width: 90%;
+  }
+  table {
+    width: 80%
+  }
+}
+
+@media (min-width: 1200px) {
+  .image-wrapper,
+  .content-wrapper {
+    max-width: 1150px;
+  }
 }
